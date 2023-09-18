@@ -1,6 +1,30 @@
 {
     "KNOWN_LANGUAGES": [
         {
+            "language": "qc",
+            "image": "qc"
+        },
+        {
+            "language": "vmt",
+            "image": "vmt"
+        },
+        {
+            "language": "vpc",
+            "image": "vpc"
+        },
+        {
+            "language": "rad",
+            "image": "rad"
+        },
+        {
+            "language": "soundscript",
+            "image": "soundscript"
+        },
+        {
+            "language": "keyvalue3",
+            "image": "keyvalue3"
+        },
+        {
             "language": "abap",
             "image": "text"
         },
@@ -354,6 +378,9 @@
         }
     ],
     "KNOWN_EXTENSIONS": {
+        ".(qc(|[ixe])|vrd|vmt|vtf|smd|dmx|vrad|kv[23])": {
+            "image": "qc"
+        },
         "nodemon.json": {
             "image": "nodemon"
         },
@@ -1523,9 +1550,6 @@
         },
         ".maeel": {
             "image": "maeel"
-        },
-        "/\\.(tfvars|tf)$/i": {
-            "image": "terraform"
         }
     }
 }
